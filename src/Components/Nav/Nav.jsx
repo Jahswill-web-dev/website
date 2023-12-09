@@ -23,6 +23,7 @@ function Nav() {
           <Link href="#">About</Link>
           <Link href="#">Contact</Link>
           <Link href="#">Tech Stack</Link>
+          <Link href="#">Portfolio</Link>
         </div>
         {/* hamburger */}
         <div className="md:hidden relative z-10" onClick={toggleMobileMenu}>
@@ -33,6 +34,7 @@ function Nav() {
           <Link href="#" className="">About</Link>
           <Link href="#">Contact</Link>
           <Link href="#">Tech Stack</Link>
+          <Link href="#">Portfolio</Link>
         </div>
       </div>
     </nav>

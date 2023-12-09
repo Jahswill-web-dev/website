@@ -4,6 +4,7 @@ import aiWebsite from "../../public/images/ai.png";
 import huddle from "../../public/images/huddle.jpg";
 import sunnySide from "../../public/images/sunnyside.jpg";
 import clipboard from "../../public/images/clipboard.jpg";
+import Link from "next/link";
 
 function portfolio() {
   return (
@@ -21,10 +22,18 @@ function portfolio() {
             width={500}
             height={500}
           />
-          <div>
+          <div className="flex flex-col items-center gap-2">
             <p className="text-white text-xl text-center pt-5">
               Coderzwave landing page
             </p>
+            <div className="text-white flex gap-4 text-3xl">
+              <Link href="#">
+                <i className="fa-solid fa-link"></i>
+              </Link>
+              <Link href="#">
+                <i className="fa-brands fa-github"></i>
+              </Link>
+            </div>
           </div>
         </div>
         {/* block 2 */}
@@ -35,10 +44,18 @@ function portfolio() {
             width={500}
             height={500}
           />
-          <div>
+          <div className="flex flex-col items-center gap-2">
             <p className="text-white text-xl text-center pt-5">
               AI consulting landing page
             </p>
+            <div className="text-white flex gap-4 text-3xl">
+              <Link href="#">
+                <i className="fa-solid fa-link"></i>
+              </Link>
+              <Link href="#">
+                <i className="fa-brands fa-github"></i>
+              </Link>
+            </div>
           </div>
         </div>
         {/* block 3 */}
@@ -49,8 +66,18 @@ function portfolio() {
             width={500}
             height={500}
           />
-          <div>
-            <p>Huddle landing page</p>
+          <div className="flex flex-col items-center gap-2">
+            <p className="text-white text-xl text-center pt-5">
+              Huddle landing page
+            </p>
+            <div className="text-white flex gap-4 text-3xl">
+              <Link href="#">
+                <i className="fa-solid fa-link"></i>
+              </Link>
+              <Link href="#">
+                <i className="fa-brands fa-github"></i>
+              </Link>
+            </div>
           </div>
         </div>
         {/* block 4 */}
@@ -61,8 +88,18 @@ function portfolio() {
             width={500}
             height={500}
           />
-          <div>
-            <p>clipboard landing page</p>
+          <div className="flex flex-col items-center gap-2">
+            <p className="text-white text-xl text-center pt-5">
+              clipboard landing page
+            </p>
+            <div className="text-white flex gap-4 text-3xl">
+              <Link href="#">
+                <i className="fa-solid fa-link"></i>
+              </Link>
+              <Link href="#">
+                <i className="fa-brands fa-github"></i>
+              </Link>
+            </div>
           </div>
         </div>
         {/* block 5 */}
@@ -73,8 +110,18 @@ function portfolio() {
             width={500}
             height={500}
           />
-          <div>
-            <p>sunnyside landing page</p>
+          <div className="flex flex-col items-center gap-2">
+            <p className="text-white text-xl text-center pt-5">
+              sunnyside landing page
+            </p>{" "}
+            <div className="text-white flex gap-4 text-3xl">
+              <Link href="#">
+                <i className="fa-solid fa-link"></i>
+              </Link>
+              <Link href="#">
+                <i className="fa-brands fa-github"></i>
+              </Link>
+            </div>
           </div>
         </div>
         {/* block 6 */}
@@ -89,7 +136,6 @@ function portfolio() {
             <p>Coderzwave landing page</p>
           </div>
         </div> */}
-
       </div>
     </div>
   );
