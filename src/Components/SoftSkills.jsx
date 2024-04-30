@@ -6,7 +6,7 @@ import Image from "next/image";
 function softSkills() {
   return (
     <div>
-      <h2 className="my-5 text-3xl text-primary text-center underline underline-offset-4">
+      <h2 className="my-10 p-10 text-3xl text-primary text-center underline underline-offset-4">
         Why Me?
       </h2>
       <div className="grid gap-6">
