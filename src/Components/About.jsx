@@ -3,7 +3,7 @@ import aboutImage from "../../public/images/about.png";
 
 function About() {
   return (
-    <div>
+    <div id="about">
       <h2 className="text-left sm:text-center text-primary text-[32px] mb-5">
         About Me
       </h2>

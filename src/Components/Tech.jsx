@@ -5,7 +5,7 @@ import reactImage from "../../public/images/react-logo.png";
 
 function Tech() {
     return ( 
-        <div className="mt-10">
+        <div className="mt-10" id="tech">
             <p className="text-3xl text-primary text-center mb-5">
                 Tech Stack
             </p>

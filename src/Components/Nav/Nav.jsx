@@ -19,23 +19,24 @@ function Nav() {
           <Image src={logo} width={70} height={70} className="w-[5rem]" />
         </div>
         {/* Navigation links desktop */}
-        <div className="hidden">
-          <Link href="#">About</Link>
-          <Link href="#">Contact</Link>
-          <Link href="#">Tech Stack</Link>
-          <Link href="#">Portfolio</Link>
-        </div>
+        {/* <div className="hidden md:flex md:gap-4">
+          <Link href="#about" className="text-primary font-medium">About</Link>
+          <Link href="#contact" className="text-primary font-medium">Contact</Link>
+          <Link href="#tech" className="text-primary font-medium">Tech Stack</Link>
+          <Link href="#portfolio" className="text-primary font-medium">Portfolio</Link>
+        </div> */}
         {/* hamburger */}
-        <div className="md:hidden relative z-10" onClick={toggleMobileMenu}>
+        {/* <div className="md:hidden relative z-10" onClick={toggleMobileMenu}>
           <Hamburger color="#3B88ED" />
-        </div>
+        </div> */}
         {/* Mobile navlist */}
-        <div className={`md:hidden ${isMobileMenuOpen ?'':'hidden'} absolute text-primary text-3xl flex flex-col justify-center items-center gap-3 top-0 left-0 right-0 bottom-0 backdrop-blur-sm`}>
-          <Link href="#" className="">About</Link>
-          <Link href="#">Contact</Link>
-          <Link href="#">Tech Stack</Link>
-          <Link href="#">Portfolio</Link>
-        </div>
+        {/* <div className={`md:hidden ${isMobileMenuOpen ?'':'hidden'} absolute text-primary text-5xl 
+        flex flex-col justify-center items-center gap-10 top-0 left-0 right-0 bottom-0 bg-black`}>
+          <Link href="#about" className="">About</Link>
+          <Link href="#contact">Contact</Link>
+          <Link href="#tech">Tech Stack</Link>
+          <Link href="#portfolio">Portfolio</Link>
+        </div> */}
       </div>
     </nav>
   );

@@ -17,7 +17,7 @@ function Footer() {
           <i className="fa-brands fa-linkedin"></i>
         </Link>
       </div>
-      <p className="text-center text-white">© 2023 Jahswill</p>
+      <p className="text-center text-white">© 2024 Jahswill</p>
     </div>
   );
 }

@@ -14,7 +14,7 @@ function Contact() {
         <h3 className="text-2xl text-primary">
           Lets create a something together
         </h3>
-        <p className="text-secondary text-xl">
+        <p className="text-secondary text-xl sm:text-center">
           The idea of offering my expertise to your team excites me. Let's get
           in touch if you're looking for a committed frontend developer who
           combines technical mastery with a passion for innovation!
