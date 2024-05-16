@@ -9,7 +9,7 @@ import Link from "next/link";
 
 function portfolio() {
   return (
-    <div className="mt-10" id="portfolio">
+    <div className="mt-10">
       <h2 className="mb-5 text-3xl text-center text-primary">
         My Recent Works
       </h2>
